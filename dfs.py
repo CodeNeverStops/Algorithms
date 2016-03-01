@@ -6,7 +6,6 @@ def dfs(step, n, book, pool):
     if step == n:
         print pool
         return
-
     for i in range(n):
         if book[i]: # is used
             continue
@@ -14,7 +13,6 @@ def dfs(step, n, book, pool):
         book[i] = 1 # mark as used
         dfs(step + 1, n, book, pool)
         book[i] = 0 # mark as unused
-
     return
 
 if __name__ == '__main__':
