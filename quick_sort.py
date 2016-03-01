@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
 def quick_sort(nums, left, right):
     if left > right:
         return
