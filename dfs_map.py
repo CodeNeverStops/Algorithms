@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 def dfs_map(x, y, step):
+    '''Depth First Search'''
     global min_step
     direction = (
             (0, 1),
